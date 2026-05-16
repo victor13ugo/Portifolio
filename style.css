@@ -1,0 +1,13 @@
+/* 
+  Variáveis para cores:
+  --fundo-principal
+  --texto
+  --texto-inverso
+  --destaque
+  --destaque-inverso
+  --fundo-card
+*/
+h1 {
+  color: blue;
+  background-color: aqua;
+}
