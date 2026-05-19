@@ -17,8 +17,8 @@
   --fundo-principal: #f5f5f5f5;
   --texto: #222222;
   --texto-inverso: #ffffff;
-  --destaque: #0077ff;
-  --destaque-inverso: #91c1f7;
+  --destaque: #064083;
+  --destaque-inverso: #5f83ac;
   --fundo-card: #ffffff;
 }
 
@@ -178,6 +178,36 @@ article h2 {
   height:100%;
   background-color: var(--destaque-inverso);
   border-radius: 4px;
+}
+
+#formacao-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#formacao-container .curso {
+  background-color: var(--fundo-principal);
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque-inverso);
+  padding-left: 15px;
+  transition: border-width 0.5s, border-color 0.5s;
+}
+
+#formacao-container .curso:hover {
+  border-left-width: 15px;
+  border-color: var(--destaque);
+  cursor: pointer;
+}
+
+#formacao-container .periodo {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--texto);
+}
+
+#formacao-container .instituicao {
+  color: var(--destaque-inverso);
 }
 
 @media screen and (min-width: 768px) {
