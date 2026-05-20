@@ -129,8 +129,6 @@ div#social a:hover {
 
 section#detalhes {
   grid-column: 2;
-  padding-left: 15px;
-  
 }
 
 article {
@@ -286,6 +284,7 @@ footer a {
 
   section#detalhes {
     grid-column: 3 / 4;
+    padding-left: 15px;
   }
 
   #skill-container {
