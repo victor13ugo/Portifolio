@@ -22,11 +22,21 @@
   --fundo-card: #ffffff;
 }
 
+body.escuro {
+  --fundo-principal:#2b2a2a;
+  --texto:#e0e0e0e0;
+  --texto-inverso:#333333;
+  --destaque:#23ace2;
+  --destaque-inverso:#7bc1cc;
+  --fundo-card:#444444;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5em;
   background-color: var(--fundo-principal);
-  color: var(--texto)
+  color: var(--texto);
+  transition:background-color 0.3s, color 0.3s;
 }
 
 header {
@@ -73,6 +83,7 @@ section#ficha {
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
+  text-align: justify;
 }
 
 section#ficha img.foto {
@@ -86,6 +97,7 @@ section#ficha img.foto {
   display: block;
   margin: auto;
   margin-bottom: 15px;
+  
 }
 
 section#ficha h1 {
